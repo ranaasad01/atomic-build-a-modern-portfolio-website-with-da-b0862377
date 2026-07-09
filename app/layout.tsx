@@ -15,11 +15,11 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   formatDetection: { telephone: false, date: false, email: false, address: false },
-  title: "Hassan Masood — Sr AI/ML Engineer",
+  title: "Asad Rana — Sr AI/ML Engineer",
   description:
-    "Portfolio of Hassan Masood, a Senior AI/ML Engineer specializing in Generative AI, LLMs, LangChain, LangGraph, and machine learning systems.",
+    "Portfolio of Asad Rana, a Senior AI/ML Engineer specializing in Generative AI, LLMs, LangChain, LangGraph, and machine learning systems.",
   keywords: [
-    "Hassan Masood",
+    "Asad Rana",
     "AI Engineer",
     "ML Engineer",
     "Generative AI",
@@ -29,11 +29,11 @@ export const metadata: Metadata = {
     "Machine Learning",
     "Portfolio",
   ],
-  authors: [{ name: "Hassan Masood" }],
+  authors: [{ name: "Asad Rana" }],
   openGraph: {
-    title: "Hassan Masood — Sr AI/ML Engineer",
+    title: "Asad Rana — Sr AI/ML Engineer",
     description:
-      "Portfolio of Hassan Masood, a Senior AI/ML Engineer specializing in Generative AI, LLMs, and machine learning systems.",
+      "Portfolio of Asad Rana, a Senior AI/ML Engineer specializing in Generative AI, LLMs, and machine learning systems.",
     type: "website",
   },
 };

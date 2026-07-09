@@ -52,7 +52,7 @@ export default function Footer() {
           <motion.div variants={fadeInUp} className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#00d4ff] to-[#7b2fff] flex items-center justify-center text-white font-bold text-sm">
-                HM
+                AR
               </div>
               <span className="font-semibold text-white">{brandName}</span>
             </div>
@@ -77,7 +77,7 @@ export default function Footer() {
                 <Mail size={16} />
               </a>
               <a
-                href="https://github.com/hassan-masood"
+                href="https://github.com/asad-rana"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:text-[#00d4ff] hover:border-[#00d4ff]/30 hover:bg-[#00d4ff]/5 transition-all duration-200"
@@ -118,24 +118,24 @@ export default function Footer() {
                 href={`mailto:${brandEmail}`}
                 className="flex items-center gap-2 text-white/50 hover:text-[#00d4ff] text-sm transition-colors duration-200 group"
               >
-                <Mail size={14} className="shrink-0" />
-                <span>{brandEmail}</span>
+                <Mail size={14} className="text-[#00d4ff]/60 group-hover:text-[#00d4ff] transition-colors" />
+                {brandEmail}
               </a>
               <a
                 href={brandLinkedIn}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white/50 hover:text-[#00d4ff] text-sm transition-colors duration-200"
+                className="flex items-center gap-2 text-white/50 hover:text-[#00d4ff] text-sm transition-colors duration-200 group"
               >
-                <Linkedin size={14} className="shrink-0" />
-                <span>linkedin.com/in/hassan-masood</span>
+                <Linkedin size={14} className="text-[#00d4ff]/60 group-hover:text-[#00d4ff] transition-colors" />
+                LinkedIn Profile
               </a>
             </div>
             <div className="pt-2">
               <Link
-                href={getLinkHref("#contact")}
+                href="#contact"
                 onClick={(e) => handleAnchorClick(e, "#contact")}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-[#00d4ff]/30 text-[#00d4ff] text-sm font-medium hover:bg-[#00d4ff]/10 transition-all duration-200"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-[#00d4ff]/10 to-[#7b2fff]/10 border border-[#00d4ff]/20 text-[#00d4ff] text-sm font-medium hover:from-[#00d4ff]/20 hover:to-[#7b2fff]/20 transition-all duration-200"
               >
                 {t("footer.contactMe")}
               </Link>
@@ -151,12 +151,12 @@ export default function Footer() {
           viewport={{ once: true }}
           className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"
         >
-          <p className="text-white/30 text-xs">
-            &copy; {currentYear} {brandName}. {t("footer.rights")}
+          <p className="text-white/30 text-sm">
+            © {currentYear} {brandName}. {t("footer.rights")}
           </p>
-          <p className="text-white/30 text-xs flex items-center gap-1">
-            {t("footer.builtWith")}
-            <Heart size={10} className="text-[#7b2fff] fill-[#7b2fff]" />
+          <p className="text-white/30 text-sm flex items-center gap-1">
+            {t("footer.builtWith")}{" "}
+            <Heart size={12} className="text-[#7b2fff] fill-[#7b2fff]" />{" "}
             {t("footer.builtWithSuffix")}
           </p>
         </motion.div>
