@@ -18,8 +18,8 @@ export const primaryCTA = {
   href: "#projects",
 };
 
-export const brandName = "Asad Rana";
-export const brandTagline = "Sr AI/ML Engineer";
+export const brandName = "Ajwa Asif";
+export const brandTagline = "Business Analyst";
 export const brandEmail = "hassan.masood@email.com";
 export const brandPhone = "+92 300 0000000";
 export const brandLinkedIn = "https://linkedin.com/in/hassan-masood";

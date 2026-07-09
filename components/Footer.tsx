@@ -52,7 +52,7 @@ export default function Footer() {
           <motion.div variants={fadeInUp} className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#00d4ff] to-[#7b2fff] flex items-center justify-center text-white font-bold text-sm">
-                AR
+                AA
               </div>
               <span className="font-semibold text-white">{brandName}</span>
             </div>
@@ -77,7 +77,7 @@ export default function Footer() {
                 <Mail size={16} />
               </a>
               <a
-                href="https://github.com/asad-rana"
+                href="https://github.com/ajwa-asif"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:text-[#00d4ff] hover:border-[#00d4ff]/30 hover:bg-[#00d4ff]/5 transition-all duration-200"
@@ -121,25 +121,14 @@ export default function Footer() {
                 <Mail size={14} className="text-[#00d4ff]/60 group-hover:text-[#00d4ff] transition-colors" />
                 {brandEmail}
               </a>
-              <a
-                href={brandLinkedIn}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white/50 hover:text-[#00d4ff] text-sm transition-colors duration-200 group"
-              >
-                <Linkedin size={14} className="text-[#00d4ff]/60 group-hover:text-[#00d4ff] transition-colors" />
-                LinkedIn Profile
-              </a>
             </div>
-            <div className="pt-2">
-              <Link
-                href="#contact"
-                onClick={(e) => handleAnchorClick(e, "#contact")}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-[#00d4ff]/10 to-[#7b2fff]/10 border border-[#00d4ff]/20 text-[#00d4ff] text-sm font-medium hover:from-[#00d4ff]/20 hover:to-[#7b2fff]/20 transition-all duration-200"
-              >
-                {t("footer.contactMe")}
-              </Link>
-            </div>
+            <Link
+              href="#contact"
+              onClick={(e) => handleAnchorClick(e, "#contact")}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-[#00d4ff]/10 to-[#7b2fff]/10 border border-[#00d4ff]/20 text-[#00d4ff] text-sm font-medium hover:from-[#00d4ff]/20 hover:to-[#7b2fff]/20 transition-all duration-200"
+            >
+              {t("footer.contactMe")}
+            </Link>
           </motion.div>
         </motion.div>
 

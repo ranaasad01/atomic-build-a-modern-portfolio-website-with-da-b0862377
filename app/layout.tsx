@@ -15,25 +15,23 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   formatDetection: { telephone: false, date: false, email: false, address: false },
-  title: "Asad Rana — Sr AI/ML Engineer",
+  title: "Ajwa Asif — Business Analyst",
   description:
-    "Portfolio of Asad Rana, a Senior AI/ML Engineer specializing in Generative AI, LLMs, LangChain, LangGraph, and machine learning systems.",
+    "Portfolio of Ajwa Asif, a Business Analyst specializing in data-driven insights, process optimization, and strategic business solutions.",
   keywords: [
-    "Asad Rana",
-    "AI Engineer",
-    "ML Engineer",
-    "Generative AI",
-    "LLMs",
-    "LangChain",
-    "LangGraph",
-    "Machine Learning",
+    "Ajwa Asif",
+    "Business Analyst",
+    "Data Analysis",
+    "Business Intelligence",
+    "Process Optimization",
+    "Strategic Planning",
     "Portfolio",
   ],
-  authors: [{ name: "Asad Rana" }],
+  authors: [{ name: "Ajwa Asif" }],
   openGraph: {
-    title: "Asad Rana — Sr AI/ML Engineer",
+    title: "Ajwa Asif — Business Analyst",
     description:
-      "Portfolio of Asad Rana, a Senior AI/ML Engineer specializing in Generative AI, LLMs, and machine learning systems.",
+      "Portfolio of Ajwa Asif, a Business Analyst specializing in data-driven insights, process optimization, and strategic business solutions.",
     type: "website",
   },
 };

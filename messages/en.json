@@ -3,7 +3,7 @@
     "hire": "Hire Me"
   },
   "footer": {
-    "bio": "Senior AI/ML Engineer building intelligent systems with Generative AI, LLMs, and modern machine learning.",
+    "bio": "Business Analyst driving data-informed decisions and delivering strategic insights for modern organizations.",
     "navigation": "Navigation",
     "getInTouch": "Get In Touch",
     "contactMe": "Contact Me",
@@ -13,19 +13,19 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "name": "Asad Rana",
-    "title": "Sr AI/ML Engineer",
-    "tagline": "Building intelligent systems that push the boundaries of what's possible with Generative AI and LLMs.",
+    "name": "Ajwa Asif",
+    "title": "Business Analyst",
+    "tagline": "Transforming complex data into clear, actionable insights that drive smarter business decisions.",
     "cta": "View My Work",
     "ctaSecondary": "Download CV",
     "badge": "Open to Opportunities"
   },
   "about": {
     "sectionLabel": "About Me",
-    "heading": "Turning complex AI research into production-ready systems",
-    "bio1": "I'm a Senior AI/ML Engineer with 4+ years of experience designing and deploying intelligent systems at scale. My work spans Generative AI, large language models, and end-to-end ML pipelines that solve real business problems.",
-    "bio2": "From architecting multi-agent LangGraph workflows to fine-tuning transformer models, I bring both research depth and engineering rigor to every project. I've contributed to products used by thousands of users across fintech, identity verification, and enterprise SaaS.",
-    "bio3": "Currently focused on pushing the frontier of agentic AI systems, RAG pipelines, and production LLM deployments on Azure and AWS.",
+    "heading": "Turning complex data into strategic business value",
+    "bio1": "I'm a Business Analyst with a passion for bridging the gap between data and decision-making. I specialize in translating business requirements into actionable insights, process improvements, and data-driven strategies.",
+    "bio2": "From stakeholder workshops and requirements gathering to dashboard development and KPI reporting, I bring both analytical rigor and clear communication to every engagement. I've contributed to projects across fintech, enterprise SaaS, and operations.",
+    "bio3": "Currently focused on leveraging modern analytics tools and business intelligence platforms to help organizations make faster, smarter decisions.",
     "stat1Value": "4+",
     "stat1Label": "Years Experience",
     "stat2Value": "15+",
@@ -35,11 +35,11 @@
   },
   "skills": {
     "sectionLabel": "Technical Skills",
-    "heading": "The stack I build with",
-    "subheading": "A curated set of tools and frameworks I use to architect, train, and deploy AI systems at scale.",
-    "cat1": "Generative AI & LLMs",
-    "cat2": "ML Frameworks",
-    "cat3": "Backend & APIs",
+    "heading": "The stack I work with",
+    "subheading": "A curated set of tools and frameworks I use to analyze, visualize, and communicate business insights.",
+    "cat1": "Business Analysis",
+    "cat2": "Data & Analytics",
+    "cat3": "Reporting & BI",
     "cat4": "Cloud & DevOps",
     "cat5": "Databases & Search",
     "cat6": "Languages"
@@ -51,8 +51,8 @@
   },
   "projects": {
     "sectionLabel": "Projects",
-    "heading": "Things I've shipped",
-    "subheading": "A selection of production systems and research projects spanning AI agents, identity verification, and enterprise platforms.",
+    "heading": "Things I've delivered",
+    "subheading": "A selection of business analysis and data projects spanning process improvement, reporting, and strategic insights.",
     "viewProject": "View Project",
     "viewCode": "View Code"
   },
@@ -65,7 +65,7 @@
   "contact": {
     "sectionLabel": "Contact",
     "heading": "Let's build something together",
-    "subheading": "I'm currently open to senior AI/ML engineering roles and consulting engagements. Reach out and let's talk.",
+    "subheading": "I'm currently open to Business Analyst roles and consulting engagements. Reach out and let's talk.",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "linkedinLabel": "LinkedIn",

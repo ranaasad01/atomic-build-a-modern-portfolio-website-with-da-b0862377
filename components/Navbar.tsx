@@ -92,7 +92,7 @@ export default function Navbar() {
             onClick={(e) => handleAnchorClick(e, "/")}
           >
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#00d4ff] to-[#7b2fff] flex items-center justify-center text-white font-bold text-sm shadow-[0_0_16px_rgba(0,212,255,0.3)] group-hover:shadow-[0_0_24px_rgba(0,212,255,0.5)] transition-all duration-300">
-              HM
+              AA
             </div>
             <span className="font-semibold text-white tracking-tight hidden sm:block">
               {brandName}
@@ -126,20 +126,19 @@ export default function Navbar() {
 
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
-            <Link
-              href={pathname === "/" ? "#contact" : "/#contact"}
+            <a
+              href="#contact"
               onClick={(e) => handleAnchorClick(e, "#contact")}
-              className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-[#00d4ff] to-[#7b2fff] text-white text-sm font-semibold shadow-[0_0_20px_rgba(0,212,255,0.25)] hover:shadow-[0_0_28px_rgba(0,212,255,0.4)] hover:scale-105 transition-all duration-300"
+              className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-[#00d4ff] to-[#7b2fff] text-white text-sm font-semibold shadow-[0_0_20px_rgba(0,212,255,0.25)] hover:shadow-[0_0_28px_rgba(0,212,255,0.4)] transition-all duration-300"
             >
               {t("nav.hire")}
-            </Link>
-
+            </a>
             <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden p-2 rounded-lg text-white/70 hover:text-white hover:bg-white/5 transition-all duration-200"
+              onClick={() => setMobileOpen((v) => !v)}
+              className="md:hidden w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200"
               aria-label="Toggle menu"
             >
-              {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+              {mobileOpen ? <X size={18} /> : <Menu size={18} />}
             </button>
           </div>
         </div>
@@ -152,44 +151,31 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3, ease: "easeOut" }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
             className="md:hidden overflow-hidden bg-[#0f0f0f]/95 backdrop-blur-xl border-b border-white/5"
           >
-            <div className="px-4 py-4 flex flex-col gap-1">
-              {navLinks.map((link, i) => (
-                <motion.div
-                  key={link.href}
-                  initial={{ opacity: 0, x: -16 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: i * 0.05, duration: 0.3 }}
-                >
-                  <Link
-                    href={getLinkHref(link.href)}
-                    onClick={(e) => handleAnchorClick(e, link.href)}
-                    className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
-                      isActive(link.href)
-                        ? "text-[#00d4ff] bg-[#00d4ff]/10 border border-[#00d4ff]/20"
-                        : "text-white/70 hover:text-white hover:bg-white/5"
-                    }`}
-                  >
-                    {link.label}
-                  </Link>
-                </motion.div>
-              ))}
-              <motion.div
-                initial={{ opacity: 0, x: -16 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: navLinks.length * 0.05, duration: 0.3 }}
-                className="pt-2"
-              >
+            <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
+              {navLinks.map((link) => (
                 <Link
-                  href={pathname === "/" ? "#contact" : "/#contact"}
-                  onClick={(e) => handleAnchorClick(e, "#contact")}
-                  className="block w-full text-center px-4 py-3 rounded-lg bg-gradient-to-r from-[#00d4ff] to-[#7b2fff] text-white text-sm font-semibold"
+                  key={link.href}
+                  href={getLinkHref(link.href)}
+                  onClick={(e) => handleAnchorClick(e, link.href)}
+                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
+                    isActive(link.href)
+                      ? "text-[#00d4ff] bg-[#00d4ff]/10 border border-[#00d4ff]/20"
+                      : "text-white/60 hover:text-white hover:bg-white/5"
+                  }`}
                 >
-                  {t("nav.hire")}
+                  {link.label}
                 </Link>
-              </motion.div>
+              ))}
+              <a
+                href="#contact"
+                onClick={(e) => handleAnchorClick(e as React.MouseEvent<HTMLAnchorElement>, "#contact")}
+                className="mt-2 px-4 py-3 rounded-lg bg-gradient-to-r from-[#00d4ff] to-[#7b2fff] text-white text-sm font-semibold text-center"
+              >
+                {t("nav.hire")}
+              </a>
             </div>
           </motion.div>
         )}
