@@ -1,1 +1,81 @@
-{}
+{
+  "nav": {
+    "hire": "Hire Me"
+  },
+  "footer": {
+    "bio": "Senior AI/ML Engineer building intelligent systems with Generative AI, LLMs, and modern machine learning.",
+    "navigation": "Navigation",
+    "getInTouch": "Get In Touch",
+    "contactMe": "Contact Me",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with",
+    "builtWithSuffix": "and Next.js"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Hassan Masood",
+    "title": "Sr AI/ML Engineer",
+    "tagline": "Building intelligent systems that push the boundaries of what's possible with Generative AI and LLMs.",
+    "cta": "View My Work",
+    "ctaSecondary": "Download CV",
+    "badge": "Open to Opportunities"
+  },
+  "about": {
+    "sectionLabel": "About Me",
+    "heading": "Turning complex AI research into production-ready systems",
+    "bio1": "I'm a Senior AI/ML Engineer with 4+ years of experience designing and deploying intelligent systems at scale. My work spans Generative AI, large language models, and end-to-end ML pipelines that solve real business problems.",
+    "bio2": "From architecting multi-agent LangGraph workflows to fine-tuning transformer models, I bring both research depth and engineering rigor to every project. I've contributed to products used by thousands of users across fintech, identity verification, and enterprise SaaS.",
+    "bio3": "Currently focused on pushing the frontier of agentic AI systems, RAG pipelines, and production LLM deployments on Azure and AWS.",
+    "stat1Value": "4+",
+    "stat1Label": "Years Experience",
+    "stat2Value": "15+",
+    "stat2Label": "Projects Shipped",
+    "stat3Value": "3",
+    "stat3Label": "Companies Impacted"
+  },
+  "skills": {
+    "sectionLabel": "Technical Skills",
+    "heading": "The stack I build with",
+    "subheading": "A curated set of tools and frameworks I use to architect, train, and deploy AI systems at scale.",
+    "cat1": "Generative AI & LLMs",
+    "cat2": "ML Frameworks",
+    "cat3": "Backend & APIs",
+    "cat4": "Cloud & DevOps",
+    "cat5": "Databases & Search",
+    "cat6": "Languages"
+  },
+  "experience": {
+    "sectionLabel": "Work Experience",
+    "heading": "Where I've built things",
+    "present": "Present"
+  },
+  "projects": {
+    "sectionLabel": "Projects",
+    "heading": "Things I've shipped",
+    "subheading": "A selection of production systems and research projects spanning AI agents, identity verification, and enterprise platforms.",
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  },
+  "education": {
+    "sectionLabel": "Education",
+    "heading": "Academic Foundation",
+    "thesis": "Thesis",
+    "gpa": "GPA"
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "heading": "Let's build something together",
+    "subheading": "I'm currently open to senior AI/ML engineering roles and consulting engagements. Reach out and let's talk.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "linkedinLabel": "LinkedIn",
+    "locationLabel": "Location",
+    "formName": "Your Name",
+    "formEmail": "Your Email",
+    "formMessage": "Your Message",
+    "formSend": "Send Message",
+    "formSending": "Sending...",
+    "formSuccess": "Message sent! I'll get back to you soon.",
+    "availability": "Available for new opportunities"
+  }
+}
